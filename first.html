@@ -2,8 +2,14 @@
 <html>
     <head></head>
     <link rel="stylesheet" href="file.css">
-    <script></script>
+    <script>
+  function calltoChangetext(){
+      let dataToChange = document.getElementsByTagName("h1")[0]
+      dataToChange.innerHTML = "Hello,welcome to pandora"
+  }
+    </script>
     <body>
         <h1 class="hai-helloWorld">"Hello world"</h1>
+        <button onclick="calltoChangetext()">ClickMe</button>
     </body>
 </html>
