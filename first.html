@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="file.css">
     <script>
 
-  const dataInHtml =  document.getElementsByTagName("h1")[0].innerHTML
+  var dataInHtml =  document.getElementsByClassName(hai-helloWorld)
 
   function calltoChangetext(){
       let dataToChange = document.getElementsByTagName("h1")[0]
@@ -12,6 +12,7 @@
   }
 
   function calltoReverttext(){
+    console.log("Hai",dataInHtml[0]).innerHTML
     let dataToChange = document.getElementsByTagName("h1")[0]
     dataToChange.innerHTML = dataInHtml
   }
